@@ -34,6 +34,7 @@ const onSubmit = function (evt) {
   evt.preventDefault();
   console.log(formData);
   formRef.reset();
+  let formData = {}; //{ email: '', message: '' }
   localStorage.removeItem(STORAGE_KEY);
 }
 
